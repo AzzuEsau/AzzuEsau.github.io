@@ -1,0 +1,453 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    box-sizing: border-box;
+
+    
+}
+
+/* colors */
+    /* Cafe: #C38B32 */
+
+.container 
+{
+    margin: auto;
+    width: 85%;
+    padding-top: 50px;
+
+    position: relative;
+}
+
+.text
+{
+    font-size: 2rem;
+}
+
+/* HEADER */
+    header 
+    {
+        min-height: 100vh;
+        color: #fff;
+
+        background-image: url(../img/bg2.png);
+        background-size: cover;
+        background-position-x: left;
+        background-position-y: 30%;
+    }
+
+    /* Title */
+        h1
+        {
+            font-size: 6rem;
+        }
+        
+        
+        .title {  
+            font-size: 6rem;
+            color: #C38B32;
+        }
+    
+    /* Menu */
+        .menu
+        {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+
+        menu
+        {
+            order: 2;
+            font-size: 1em;
+        }
+        
+        menu ul 
+        {
+            padding-top: 50px;
+            list-style: none;
+            display: flex;
+        }
+        
+        menu ul li a
+        {
+            margin-left: 20px;
+            font-size: 1.5em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+    /* Slogan */
+        .divSlogan
+        {
+            font-size: 1em;
+            margin-top: 20%;
+            text-align: center;
+        }
+
+        .superSlogan
+        {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 5em;
+        }
+
+        .delete
+        {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        .slogan {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            font-size: 1em;
+
+            color: #C38B32;
+            text-decoration: underline;
+        }
+    
+    menu ul li a:hover
+    {
+        text-decoration: underline;
+        color: #C38B32;
+    }
+
+
+
+/* Main */
+
+    /* SubTitle */
+    .subtitle
+    {
+        text-align: center;
+        font-weight: bold;
+        font-size: 3em;
+        
+        margin-bottom: 30px;
+        color: #C38B32;
+    }
+    
+    .separate
+    {
+        margin-right: 15px;
+    }
+
+    /* Services */
+        #Services
+        {
+            min-height: 100vh;
+            margin-bottom: 100px;
+        }
+
+        .services
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* flex-direction: column;
+            text-align: center; */
+        }
+
+        /* Servies */
+            .service
+            {
+                border-radius: 15px;
+                margin-right: 5px;
+                margin-left: 5px;
+
+                
+                min-height: 950px;
+                background: #E0E0E0;
+            }
+
+            
+            .service .img1
+            {
+                position: relative;
+                height: 600px;
+                width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+
+                
+                background: url(../img/services/masage.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+            .service .img2
+            {
+                position: relative;
+                height: 600px;
+                width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+
+                
+                background: url(../img/services/facial.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+
+            .service .img3
+            {
+                position: relative;
+                height: 600px;
+                width: 100%;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+
+                
+                background: url(../img/services/tratamientos.jpg);
+                background-position: center;
+                background-size: cover;
+            }
+            
+            .service h3
+            {
+                font-size: 2em;
+
+                padding-top: 30px;
+                padding-bottom: 30px;
+                padding-left: 30px;
+            }
+
+            .description
+            {
+                font-size: 1.3em;
+
+                padding-right: 20px;
+                padding-left: 20px;
+                padding-bottom: 60px;
+            }
+
+
+    /* US */
+        #Us
+        {
+            min-height: 100vh;
+            background: url(../img/bg3.png);
+            background-position: left;
+            background-size: cover;
+        }
+
+        .padding-y
+        {
+            padding-top: 100px;
+            padding-bottom: 150px;
+            padding-right: 45%;
+        }
+
+        .white
+        {
+            color: #fff;
+        }
+        /* article */
+            .usArticle
+            {
+                color: white;
+            }
+
+
+    /* Contact US */
+    #Contact
+    {
+        min-height: 80vh;
+    }
+            .blue
+            {
+                color: #3F88C5;
+            }
+
+        .form
+        {
+            display: flex;
+            /* flex-wrap: nowrap; */
+            flex-direction: column;
+
+            width: 45%;
+
+            font-size: 2rem;
+        }
+        
+        .form label
+        {
+            font-weight: bold;
+            color: #3F88C5;
+        }
+
+        input, textarea
+        {
+            font-size: .75em;
+            padding: 5px;
+            margin-bottom: 20px;
+            /* border-radius: 2px; */
+        }
+
+        textarea
+        {
+            resize: none;
+        }
+
+        .divition
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .information
+        {
+            width: 45%;
+            font-size: 2em;
+        }
+
+        .information p
+        {
+            font-size: 1.5rem;
+            padding-left: 50px;
+        }
+        .information p a
+        {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        .information h3
+        {
+            color: #3F88C5;
+        }
+
+    /* Footer */
+    footer
+    {
+        margin-top: 50px;
+
+        padding: 50px;
+        text-align: center;
+        background: #1C3144;
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+@media screen and (max-width: 1250px)
+{
+    .padding-y
+    {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .menu
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    menu
+    {
+        margin: 0 auto;
+        order: 2;
+    }
+
+    menu ul
+    {
+        border-radius: 15px;
+        padding: 15px;
+        background: rgba(255, 255, 255, .1);
+    }
+
+    .divTitle
+    {
+        margin: auto;
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .services
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .service
+    {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 750px) 
+{
+    menu
+    {
+        visibility: hidden;
+        position: fixed;
+    }
+    .divSlogan
+    {
+        margin-top: 0%;
+    }
+    
+    .delete
+    {
+        font-size: 0;
+    }
+
+    .text
+    {
+        text-align: center;
+        font-size: 1.30em;
+    }
+
+    .divition
+    {
+        flex-direction: column;
+    }
+
+    .information, .form
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-height: 500px) 
+{
+    menu
+    {
+        visibility: hidden;
+        position: fixed;
+    }
+    .divSlogan
+    {
+        margin-top: 0%;
+    }
+    
+    .delete
+    {
+        font-size: 0;
+    }
+}
+
+@media screen and (max-width: 490px)
+{
+    .delete
+    {
+        font-size: 0;
+    }
+
+    .divSlogan
+    {
+        margin-top: 40%;
+    }
+
+    .superSlogan
+    {
+        font-size: 4em;
+    }
+}
