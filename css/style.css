@@ -11,6 +11,11 @@
 /* colors */
     /* Cafe: #C38B32 */
 
+.relative
+{
+    position: relative;
+}
+
 .container 
 {
     margin: auto;
@@ -22,7 +27,31 @@
 
 .text
 {
+    text-align: center;
     font-size: 2rem;
+}
+
+.absolute 
+{
+    position: absolute;
+    bottom: -1px;
+}
+
+.absoluteUp
+{
+    position: absolute;
+    top: -1px;
+}
+
+.aja
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: rgba(0, 0, 0, .4);
 }
 
 /* HEADER */
@@ -31,10 +60,10 @@
         min-height: 100vh;
         color: #fff;
 
-        background-image: url(../img/bg2.png);
+        background-image: url(../img/bg.jpg);
         background-size: cover;
-        background-position-x: left;
-        background-position-y: 30%;
+        background-position-x: center;
+        background-position-y: 100%;
     }
 
     /* Title */
@@ -231,17 +260,14 @@
         #Us
         {
             min-height: 100vh;
-            background: url(../img/bg3.png);
-            background-position: left;
+            background: url(../img/bg1.jpg);
+            background-position: center;
             background-size: cover;
-        }
 
-        .padding-y
-        {
-            padding-top: 100px;
-            padding-bottom: 150px;
-            padding-right: 45%;
-        }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }  
 
         .white
         {
@@ -389,10 +415,10 @@
         visibility: hidden;
         position: fixed;
     }
-    .divSlogan
+    /* .divSlogan
     {
         margin-top: 0%;
-    }
+    } */
     
     .delete
     {
@@ -423,10 +449,10 @@
         visibility: hidden;
         position: fixed;
     }
-    .divSlogan
+    /* .divSlogan
     {
         margin-top: 0%;
-    }
+    } */
     
     .delete
     {
@@ -441,10 +467,10 @@
         font-size: 0;
     }
 
-    .divSlogan
+    /* .divSlogan
     {
         margin-top: 40%;
-    }
+    } */
 
     .superSlogan
     {
